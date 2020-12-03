@@ -1,0 +1,9 @@
+query sentenceWordOrderExample($input: SentenceWordOrderExampleInputArgs!){
+    sentenceWordOrderExample(input: $input) {
+        id
+        question
+        correctAnswers
+        level
+        key
+    }
+}

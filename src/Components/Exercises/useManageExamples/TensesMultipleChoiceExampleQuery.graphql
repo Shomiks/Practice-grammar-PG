@@ -1,0 +1,9 @@
+query TensesMultipleChoiceExample($input: TensesMultipleChoiceExampleInputArgs!){
+    tensesMultipleChoiceExample(input: $input) {
+        id
+        question
+        answers
+        level
+        key
+    }
+}

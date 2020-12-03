@@ -1,0 +1,8 @@
+query MultipleChoiceExample($input: MultipleChoiceExampleInputArgs!){
+    multipleChoiceExample(input: $input) {
+        id
+        question
+        answers
+        correctAnswers
+    }
+}

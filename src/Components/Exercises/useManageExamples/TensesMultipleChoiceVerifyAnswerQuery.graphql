@@ -1,0 +1,6 @@
+mutation TensesMultipleChoiceVerifyAnswer($input: TensesMultipleChoiceVerifyAnswerInputArgs!){
+    tensesMultipleChoiceVerifyAnswer(input:$input) {
+        isCorrect
+        correctAnswer
+    }
+}

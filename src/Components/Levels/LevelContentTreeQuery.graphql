@@ -1,0 +1,18 @@
+query LevelContentTree($input: LevelContentTreeArgs!){
+  levelContentTree(input: $input) {
+    categoryKey
+    categoryName
+    categoryStatus
+    topics {
+      topicKey
+      topicName
+      exercises {
+        exerciseKey
+        exerciseName
+        exerciseType
+        exerciseLevel
+        exerciseStreak
+      }
+    }
+  }
+}

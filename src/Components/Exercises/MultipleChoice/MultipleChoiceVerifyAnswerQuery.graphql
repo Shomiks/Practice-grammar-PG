@@ -1,0 +1,6 @@
+mutation MultipleChoiceVerifyAnswer($input: MultipleChoiceVerifyAnswerInputArgs!){
+    multipleChoiceVerifyAnswer(input:$input) {
+        isCorrect
+        correctAnswer
+    }
+}

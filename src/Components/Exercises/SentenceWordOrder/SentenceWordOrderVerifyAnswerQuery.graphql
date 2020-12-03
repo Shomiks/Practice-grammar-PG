@@ -1,0 +1,6 @@
+mutation SentenceWordOrderVerifyAnswer($input: SentenceWordOrderVerifyAnswerInputArgs!){
+    sentenceWordOrderVerifyAnswer(input:$input) {
+        isCorrect
+        correctAnswer
+    }
+}

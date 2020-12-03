@@ -1,0 +1,5 @@
+mutation ReportQuestion($input: ReportQuestionsArgs!) {
+    reportQuestion(input: $input) {
+        status
+    }
+}
